@@ -9,7 +9,7 @@ function App() {
       <Hello ></Hello>
       <HelloClass name="Somen" play="Football"></HelloClass>
       <HelloClass name="Isha" play="Badminton"></HelloClass>
-      <Message ></Message>
+      <Message message='Welcome Visitor'></Message>
     </div>
   );
 }
