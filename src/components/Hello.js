@@ -2,9 +2,9 @@ import React from 'react';
 /* function Hello() {
     return (<h1>Hello Somen</h1>);
 } */
-const Hello = () => {
+const Hello = ({ name, hero }) => {
     return (
-        <h1>Hi, Somen</h1>
+        <h1>Hi, {name}, your hero is {hero}</h1>
     )
 }
 export default Hello;
